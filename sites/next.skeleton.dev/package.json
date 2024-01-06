@@ -13,7 +13,8 @@
 		"start": "astro dev",
 		"build": "astro check && astro build",
 		"preview": "astro preview",
-		"astro": "astro"
+		"astro": "astro",
+		"deploy": "pnpm --filter=skeleton-next build && pnpm build"
 	},
 	"dependencies": {
 		"@astrojs/check": "^0.3.4",
